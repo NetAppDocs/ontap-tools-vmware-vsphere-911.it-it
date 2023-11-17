@@ -400,7 +400,6 @@
   <block id="b6b2c55f92e8e04471c740483e69a795" category="paragraph">È possibile aumentare o ridurre le dimensioni di un datastore NFS, ma per un datastore VMFS è possibile solo aumentarle. Il ridimensionamento del datastore è supportato anche per gli archivi dati FlexGroup con opzione di crescita e riduzione automatica. Un FlexGroup che fa parte di un datastore tradizionale e di un volume FlexVol che fa parte di un datastore vVols non può ridursi al di sotto delle dimensioni esistenti ma può crescere al massimo del 120%. Gli snapshot predefiniti sono attivati su questi volumi FlexGroup e FlexVol.</block>
   <block id="1b837800f24f729eb8e73a102257c0bd" category="admonition">Se si utilizzano piattaforme di storage di tipo All SAN Array (ASA) con ONTAP 9.9.1 o versione successiva, solo allora è possibile creare datastore vVol con dimensioni vmdk superiori a 16 TB.</block>
   <block id="0e6fc56cbe91d72cb03e33a904ae9ab3" category="list-text">Nel riquadro di navigazione, selezionare il data center che contiene il datastore.</block>
-  <block id="a15d1bf5dee929fddbf2e03ae0f830e9" category="list-text">Fare clic con il pulsante destro del mouse sull'archivio dati e selezionare *NetApp ONTAP Tools* &gt; *Assegna QoS*.</block>
   <block id="425e99780c82b74f333dd7da3068f492" category="list-text">Nella finestra di dialogo Ridimensiona, specificare una nuova dimensione per l'archivio dati, quindi fare clic su *OK*.</block>
   <block id="29b33d6a4971ded7e90ffb22fa8e685d" category="paragraph">È possibile eseguire l'opzione *RISCOPRI TUTTO* nel menu Storage Systems (sistemi storage) per aggiornare manualmente l'elenco di storage in Storage Systems and Dashboard (sistemi storage e dashboard) o attendere il successivo aggiornamento pianificato.</block>
   <block id="d9cf595bd31604d4a74bc6fcf1e62921" category="summary">È possibile verificare rapidamente se i datastore sono conformi ai profili delle funzionalità di storage mappati agli archivi dati.</block>
@@ -1967,7 +1966,6 @@
   <block id="bbf1057ad175e1e1664e224351019ac9" category="sidebar">NetApp Import Utility - Video</block>
   <block id="72393f9ef0b6b69526a30ac7ce5276bc" category="sidebar">Community NetApp - Tool ONTAP</block>
   <block id="08420002b9383a71acf39a2e9f9d504a" category="sidebar">Documentazione sugli strumenti ONTAP per VMware vSphere 9.11</block>
-  <block id="ed9018b2e8611a3d2c03bb6a205b9715" category="sidebar">Strumenti ONTAP per VMware vSphere</block>
   <block id="4226794a7bb33ab0a2309e30c07c9031" category="sidebar">Gestire gli strumenti ONTAP</block>
   <block id="1b8a04f09ff55290753a17988fd53c2a" category="sidebar">Gestire i datastore</block>
   <block id="427d9ce60f4b39aa82a25138b4aa489f" category="sidebar">Gestire le macchine virtuali</block>
@@ -2006,4 +2004,5 @@
   <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
   <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="bdc5a4ba1115f3f724e1f81e7f41eeef" category="list-text">Fare clic con il pulsante destro del mouse sull'archivio dati e selezionare *NetApp ONTAP tools* &gt; *Ridimensiona archivio dati non vVol*.</block>
 </blocks>
